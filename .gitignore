@@ -1,0 +1,44 @@
+# =============================================================================
+# .gitignore — Drop this in the root of your repo
+# =============================================================================
+
+# ── Sync script internals ────────────────────────────────────────────────────
+.sync.log
+
+# ── Windows ──────────────────────────────────────────────────────────────────
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# ── Linux / Arch ─────────────────────────────────────────────────────────────
+.directory
+*~
+.fuse_hidden*
+.nfs*
+
+# ── macOS (just in case) ─────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Editors ──────────────────────────────────────────────────────────────────
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+
+# Vim/Neovim
+*.swp
+*.swo
+Session.vim
+
+# ── General ──────────────────────────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+*.bak
